@@ -11,7 +11,7 @@ var Board = React.createClass({
     return (
       <div key={i}
             style={{width: '14.28%', height: '14.28%'}}>
-          <Square>
+          <Square position={i}>
           </Square>
       </div>
     )
