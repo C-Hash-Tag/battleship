@@ -10,6 +10,7 @@ var Redirect = ReactRouter.Redirect;
 var routes = (
   <Route path="/" component={require('./base/basepath')}>
     <IndexRoute component={require('./login')} />
+    <Route path="board" component={require('./components/board')} />
   </Route>
 );
 
